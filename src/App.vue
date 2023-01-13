@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/crypto2.jpg" />
   <HelloWorld msg="Welcome to crypto-creativo App" />
 </template>
 
