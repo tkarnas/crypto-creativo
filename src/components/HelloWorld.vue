@@ -130,4 +130,19 @@ h1 {
     transform: rotate(0deg);
   }
 }
+@media only screen and (max-width: 700px) {
+  button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
 </style>
