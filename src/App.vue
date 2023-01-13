@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Welcome to crypto-creativo App" />
+  <HelloWorld msg="Crypto - creativo" />
 </template>
 
 <script>

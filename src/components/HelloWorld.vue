@@ -61,9 +61,9 @@ export default {
 
 <style scoped>
 button {
-  background-color: #4caf50; /* Green */
+  background-color: #8e24aa;
   border: none;
-  color: white;
+  color: whitesmoke;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -74,11 +74,24 @@ button {
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.2s ease-in-out;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 button:hover {
   transform: scale(1.1);
-  background-color: #3e8e41;
+  background-color: #ff7300;
 }
 
 img {
@@ -91,11 +104,30 @@ img {
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #333;
-  text-shadow: 2px 2px 0px #fff, -2px -2px 0px #fff, 2px -2px 0px #fff,
-    -2px 2px 0px #fff, 0px 2px 0px #fff, 0px -2px 0px #fff, 2px 0px 0px #fff,
-    -2px 0px 0px #fff;
+  color: #ff7300;
+  background: #ff7300;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 0.1em;
   margin-top: 2em;
+  animation: animateText 3s ease-in-out infinite;
+}
+
+@keyframes animateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 </style>
