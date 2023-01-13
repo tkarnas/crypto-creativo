@@ -87,4 +87,15 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px 0px #fff, -2px -2px 0px #fff, 2px -2px 0px #fff,
+    -2px 2px 0px #fff, 0px 2px 0px #fff, 0px -2px 0px #fff, 2px 0px 0px #fff,
+    -2px 0px 0px #fff;
+  letter-spacing: 0.1em;
+  margin-top: 2em;
+}
 </style>
