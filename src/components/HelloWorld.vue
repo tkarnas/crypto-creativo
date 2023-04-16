@@ -43,7 +43,7 @@ export default {
 
         const text = this.data
           .map(
-            (crypto) => "BINANCE:" + crypto.symbol.toUpperCase() + "USDTPERP\n"
+            (crypto) => "BINANCE:" + crypto.symbol.toUpperCase() + "USDT.P\n"
           )
           .join("");
         const blob = new Blob([text], { type: "text/plain" });
